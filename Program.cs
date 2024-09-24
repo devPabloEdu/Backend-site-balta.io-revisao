@@ -7,7 +7,8 @@ namespace Balta
     {
         static void Main(string[] args)
         {
-            var course = new Course();
+            var cursoDeCsharp = new Course();
+            Console.WriteLine(cursoDeCsharp.Id);
         }
     }
 }
