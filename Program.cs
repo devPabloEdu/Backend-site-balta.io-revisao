@@ -22,6 +22,15 @@ namespace Balta
                 Console.WriteLine("-----------");
             }
 
+            var courses = new List<Course>();
+            var courseOOP = new Course("Fundamentos OOP", "fundamentos - oop");
+            var courseCSHARP = new Course("Fundamentos c#", "fundamentos - c#");
+            var courseASPNET = new Course("Fundamentos .Net", "fundamentos - .Net");
+            courses.Add(courseOOP);
+            courses.Add(courseCSHARP);
+            courses.Add(courseASPNET);
+
+            var carreira = new Career("Especialista .NET", "especialista-.net");
         }
     }
 }
