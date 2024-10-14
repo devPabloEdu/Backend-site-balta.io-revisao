@@ -51,6 +51,11 @@ namespace Balta
                     Console.WriteLine(item.Course.Title);
                     Console.WriteLine(item.Course.Level);
                     Console.WriteLine("------------------");
+
+                    foreach (var notification in item.Notifications)
+                    {
+                        Console.WriteLine($"{notification.Property} - {notification.Message}");
+                    }
                     
                 }
             }
